@@ -15,6 +15,7 @@ void draw(const char* s) {
 		}
 		else if(strcmp(s, "square") == 0) square();
 		else if(strcmp(s, "circle") == 0) square();
+		else if(strcmp(s, "smile") == 0)  smile();
 		else {
 			printf("Invalid input: %s\n", s);
 			exit(1);
@@ -34,4 +35,9 @@ void amongus(int i) {
 		i--;
 	}
 	printf("\n");
+}
+
+void smile()
+{
+	printf("ツ\n");
 }

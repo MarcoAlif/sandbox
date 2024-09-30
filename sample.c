@@ -2,6 +2,8 @@
 #include "src/asciiart.h"
 
 int main() {
+	printf("Printing smile:\n");
+	draw("smile");
 	printf("Printing amongus:\n");
 	draw("amongus");
 	printf("Printing square with default size:\n");
